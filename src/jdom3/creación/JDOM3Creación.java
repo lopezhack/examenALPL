@@ -22,7 +22,7 @@ public class JDOM3Creación {
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        System.out.println("Archivo modificado");
         Element Eraiz=new Element("mensajes");
         Document docRSS=new Document(Eraiz);
         Eraiz.setAttribute("fecha","31/03/2017");
